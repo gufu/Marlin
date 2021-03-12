@@ -2371,7 +2371,7 @@ bool Planner::_populate_block(block_t * const block, bool split_move,
           #endif
 
           const float limit_sqr = (block->millimeters * junction_acceleration) / junction_theta;
-          NOMORE(vmax_junction_sqr, limit_sqr);
+          //NOMORE(vmax_junction_sqr, limit_sqr);
         }
       }
 
